@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-example
+
+query:
+  enabled: true
+  url: https://jsonplaceholder.typicode.com/posts/1
+---
+spring.profile: test
+
+query:
+  url: https://jsonplaceholder.typicode.com/posts/2
