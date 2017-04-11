@@ -6,7 +6,7 @@ query:
   enabled: true
   url: https://jsonplaceholder.typicode.com/posts/1
 ---
-spring.profile: test
+spring.profiles: test
 
 query:
   url: https://jsonplaceholder.typicode.com/posts/2
